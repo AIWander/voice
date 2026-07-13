@@ -1,4 +1,8 @@
-# Voice Server
+# Voice server - part of Voice-Command
+
+This repository is the listening-server component of the CPC voice stack. New users should
+start at [Voice-Command](https://github.com/AIWander/Voice-Command), the canonical product and
+installer front door.
 
 Voice input/output for Claude Desktop — real-time speech-to-text via [faster-whisper](https://github.com/SYSTRAN/faster-whisper) with biquad noise filtering and rule-based emotion detection, paired with text-to-speech via [edge-tts](https://github.com/rany2/edge-tts). Runs as a local HTTP server on `localhost:5123` and exposes MCP tools for Claude Desktop integration.
 
